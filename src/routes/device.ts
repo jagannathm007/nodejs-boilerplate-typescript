@@ -4,5 +4,6 @@ const router = express.Router();
 import * as authCtrl from '../controllers/device/auth.ctrl';
 
 router.get('/signIn', authCtrl.signIn);
+router.get('/signUp', authCtrl.signUp);
 
 export const deviceRoutes = router;
